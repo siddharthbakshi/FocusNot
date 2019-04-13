@@ -3230,7 +3230,7 @@ const blacklist = ['twitch.tv', 'roblox.com', 'steampowered.com', 'gamespot.com'
 function distract() {
     console.log("Oi!");
     const content = content_list[Math.floor(Math.random()*content_list.length)];
-    const htmltext = '<div class="distract_popup" style = "position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.3); z-index: 1000000"><img src="'+content+'" style = "position: absolute; top: 15%; left: 35%; width: 30%; height: 70%"></img><div id="popup_content"><button id="close_button" style = "position: absolute; top: 5%; left: 90%" onclick="var paras = document.getElementsByClassName(\'distract_popup\'); while(paras[0]) {document.getElementsByTagName(\'body\')[0].removeChild(paras[0]);}">&times;</button></div></div>'
+    const htmltext = '<div class="distract_popup" style = "position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.3); z-index: 1000000"><img src="'+content+'" style = "position: absolute; top: 15%; left: 35%; width: 30%; height: 70%"></img><div id="popup_content"><button id="close_button" style = "position: absolute; top: 5%; left: 90%" onclick="var paras = document.getElementsByClassName(\'distract_popup\'); while(paras[0]) {document.getElementsByTagName(\'body\')[0].removeChild(paras[0]);}">&times;</button></div></div>'
     document.getElementsByTagName('body')[0].insertAdjacentHTML("beforeend",htmltext);
 };
 

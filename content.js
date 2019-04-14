@@ -3227,21 +3227,19 @@ const content_list = [
 
 const blacklist = ['twitch.tv', 'roblox.com', 'steampowered.com', 'gamespot.com', 'ign.com', 'playstation.com', 'leagueoflegends.com', 'nexusmods.com', 'ea.com', 'epicgames.com', 'chess.com', 'wowhead.com', 'nvidia.com', 'pcgamer.com', 'battle.net', 'ubisoft.com', 'unity3d.com', 'nintendo.com', 'xbox.com', 'blizzard.com', 'minecraft.net', 'bulbagarden.net', 'wizards.com', 'boardgamegeek.com', 'kongregate.com', 'itch.io', 'sporcle.com', 'rockstargames.com', 'gamesradar.com', 'eurogamer.net', 'bethesda.net', 'thesimsresource.com', 'miniclip.com', 'pch.com', 'vocabulary.com', 'square-enix.com', 'icy-veins.com', 'planetminecraft.com', 'rockpapershotgun.com', 'easports.com', 'finalfantasyxiv.com', 'minecraftforum.net', 'vg247.com', 'runescape.com', 'mtggoldfish.com', 'betfair.com', 'giantbomb.com', 'hattrick.org', 'elderscrollsonline.com', 'bungie.net', 'xvideos.com', 'xnxx.com', 'chaturbate.com', 'youporn.com', 'livejasmin.com', 'flirt4free.com', 'nhentai.net', 'bongacams.com', '4chan.org', 'cam4.com', 'porn.com', 'furaffinity.net', 'liveleak.com', 'fetlife.com', 'adultfriendfinder.com', 'spankwire.com', 'literotica.com', 'clips4sale.com', 'planetsuzy.org', 'luscious.net', 'ebaumsworld.com', 'hentai2read.com', 'freeones.com', 'hentai-foundry.com', 'nudevista.com', 'iafd.com', 'gayboystube.com', 'adam4adam.com', 'mrskin.com', 'adultdvdempire.com', 'cams.com', 'adultwork.com', 'oglaf.com', 'vintage-erotica-forum.com', 'celebritymoviearchive.com', 'inkbunny.net', 'squirt.org', 'suicidegirls.com', 'streamate.com', 'cliphunter.com', 'nifty.org', 'ftvgirls.com', 'asexstories.com', 'adultdvdtalk.com', 'asstr.org', 'faapy.com', 'manhunt.net', 'mrporngeek.com', 'fakku.net', 'imlive.com', 'google.com', 'reverso.net', 'weebly.com', 'thesaurus.com', 'khanacademy.org', 'espncricinfo.com', 'leagueoflegends.com', 'ea.com', 'epicgames.com', 'timeanddate.com', 'britannica.com', 'battle.net', 'xe.com', 'ubisoft.com', 'citationmachine.net', 'mit.edu', 'nintendo.com', 'xbox.com', 'blizzard.com', 'history.com', 'bulbagarden.net', 'android.com', 'y8.com', 'css-tricks.com', 'parliament.uk', 'howstuffworks.com', 'easybib.com', 'bom.gov.au', 'codecademy.com', 'sitepoint.com', 'bethesda.net', 'mathsisfun.com', 'uefa.com', 'square-enix.com', 'lego.com', 'raspberrypi.org', 'easports.com', 'fontsquirrel.com', 'mathway.com', 'sciencedaily.com', 'rhymezone.com', 'bartleby.com', 'space.com', 'irishtimes.com', 'biography.com', 'gocomics.com', 'kidshealth.org', 'bungie.net', 'ed.gov', 'pbskids.org', 'booking.com', 'tripadvisor.com', '9gag.com', 'expedia.com', 'agoda.com', 'hotels.com', 'southwest.com', 'marriott.com', 'kayak.com', 'delta.com', 'xe.com', 'aa.com', 'ryanair.com', 'united.com', 'uber.com', 'zomato.com', 'flightradar24.com', 'hilton.com', 'ana.co.jp', 'priceline.com', 'emirates.com', 'vrbo.com', 'easyjet.com', 'timeout.com', 'jal.co.jp', 'jalopnik.com', 'qatarairways.com', 'grubhub.com', 'opentable.com', 'state.gov', 'skyscanner.com', 'alaskaair.com', 'cracked.com', 'lego.com', 'aeroflot.ru', 'lonelyplanet.com', 'ford.com', 'britishairways.com', 'orbitz.com', 'accorhotels.com', 'tripsavvy.com', 'lufthansa.com', 'turkishairlines.com', 'loc.gov', 'travelocity.com', 'disney.go.com', 'hostelworld.com', 'couchsurfing.com', 'ebaumsworld.com', 'hyatt.com', 'amazon.com', 'netflix.com', 'ebay.com', 'amazon.co.uk', 'etsy.com', 'walmart.com', 'steampowered.com', 'ikea.com', 'cambridge.org', 'homedepot.com', 'bestbuy.com', 'wiley.com', 'nike.com', 'target.com', 'humblebundle.com', 'hm.com', 'macys.com', 'lowes.com', 'newegg.com', 'costco.com', 'bhphotovideo.com', 'ticketmaster.com', 'groupon.com', 'nordstrom.com', 'wayfair.com', 'oup.com', 'iherb.com', 'rakuten.com', 'kohls.com', 'gap.com', 'redbubble.com', 'sky.com', 'rei.com', 'cargurus.com', 'sephora.com', 'autotrader.com', 'bodybuilding.com', 'zappos.com', 'walgreens.com', 'cars.com', 'forever21.com', 'shutterfly.com', 'ifixit.com', 'yoox.com', 'overstock.com', 'directv.com', 'cvs.com', 'barnesandnoble.com', 'gamestop.com', 'staples.com', 'espn.com', 'cricbuzz.com', 'cbssports.com', 'espncricinfo.com', 'yahoo.com', 'livescore.com', 'nba.com', 'bleacherreport.com', 'ncaa.com', 'nhl.com', 'goal.com', 'strava.com', 'flashscore.com', 'premierleague.com', 'skysports.com', 'nbcsports.com', 'rei.com', 'iplt20.com', 'nfl.com', 'formula1.com', 'yahoo.com', 'wwe.com', 'filgoal.com', 'si.com', 'motorsport.com', 'uefa.com', 'deadspin.com', 'basketball-reference.com', 'baseball-reference.com', 'sbnation.com', 'rotoworld.com', 'soccerway.com', 'tsn.ca', 'rivals.com', 'hkjc.com', 'pgatour.com', 'hattrick.org', 'whoscored.com', 'nbcsports.com', 'afl.com.au', 'sherdog.com', 'sportingnews.com', 'pinkbike.com', 'foxsports.com', 'active.com', 'maxpreps.com', 'ronaldo7.net', 'eurosport.com', 'soccerstand.com', 'football365.com', 'facebook.com', 'twitter.com', 'instagram.com', 'reddit.com', '9gag.com', '4chan.com', 'gsmarena.com'];
 
+// Loads a dialog box with a random image from content_list
 function distract() {
-    console.log("Oi!");
     const content = content_list[Math.floor(Math.random()*content_list.length)];
     const htmltext = '<div class="distract_popup" style = "position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.3); z-index: 1000000"><img src="'+content+'" style = "position: absolute; top: 15%; left: 35%; width: 30%; height: 70%"></img><div id="popup_content"><button id="close_button" style = "position: absolute; top: 5%; left: 90%; width: 40px; height: 40px; border-radius: 20px; border: none" onclick="var paras = document.getElementsByClassName(\'distract_popup\'); while(paras[0]) {document.getElementsByTagName(\'body\')[0].removeChild(paras[0]);}">&times;</button></div></div>'
     document.getElementsByTagName('body')[0].insertAdjacentHTML("beforeend",htmltext);
 };
-
-//Getting URL of current tab
-var curr = "" //Debugging
+ 
+// Gets URL of current tab and sets off distract() if URL not in blacklist
+var curr = ""
 chrome.runtime.onMessage.addListener(
 function(request, sender, sendResponse) {
     if( request.message === "url_action" ) {  
-    console.log("Url action working")
-    console.log(request);
-    curr = request.data //Debugging
+    curr = request.data
     if (!checkBlackList(curr)) {
         setInterval(distract,5000);
     }
@@ -3249,6 +3247,7 @@ function(request, sender, sendResponse) {
 }
 );
 
+// Checks if URL of current tab is in blacklist 
 function checkBlackList(curr) {
     var flag = false
     for (var i = 0; i < blacklist.length; i++) { 
